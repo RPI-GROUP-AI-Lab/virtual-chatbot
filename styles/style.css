@@ -1,0 +1,234 @@
+/* styles.css */
+[data-testid=stImage]{
+    text-align: center;
+    display: block;
+    margin: auto;
+    padding-bottom:0px ;
+    width:12%;
+/*     border: solid rgb(0, 0, 0) 2px;
+    border-radius: 50%; */
+}
+[data-testid=stSidebar] [data-testid=stImage]{
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 120px;
+    /* border: solid rgb(0, 0, 0) 2px;
+    border-radius: 50%; */
+}
+[data-testid=stSidebar] [data-testid=stImageContainer]{
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 120px;
+    /* border: solid rgb(0, 0, 0) 2px;
+    border-radius: 50%; */
+}
+
+
+/* Style for sidebar page links */
+[data-testid=stSidebar] [data-testid=stPageLink] {
+    background-color: #f1e3d3; /* Light grayish-blue color */
+    border: solid rgb(0, 0, 0) 1px;
+    border-radius: 10px;
+    margin: 2px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* X offset, Y offset, blur radius, shadow color */
+     /* Add some padding for better appearance */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition for hover effect */
+}
+
+/* Hover effect for sidebar page links */
+[data-testid=stSidebar] [data-testid=stPageLink]:hover {
+    background-color: #959595; /* Slightly darker shade for hover */
+    transform: scale(1.05); /* Slight scaling effect on hover */
+}
+[data-testid="stForm"]{
+    background-color: #f1e3d3;
+    color: black
+}
+
+[data-testid="stForm"] #text_input_1, #text_input_2{
+    background-color: #e8e0ff;
+
+}
+
+[data-testid=stTextInput-RootElement]{
+background-color: #e8e0ff;
+}
+[data-testid="stFileUploaderDropzone"]{
+    background-color:#f0f8ff;
+    border: solid 1.5px black;
+}
+
+[data-testid="stChatMessage"]:nth-child(odd) {
+    background-color: #F1E3D3; /* Light blue for assistant */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for levitation */
+    border: solid .5px rgb(129, 129, 129) ;
+    border-radius: 10px; /* Rounded corners for better appearance */
+    margin-bottom: 10px;
+}
+
+/* User messages (even) */
+[data-testid="stChatMessage"]:nth-child(even) {
+    background-color: #99C1B9; /* Light orange for user */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for levitation */
+    border: solid .5px rgb(129, 129, 129) ;
+    border-radius: 10px; /* Rounded corners */
+    margin-bottom: 10px;
+}
+
+
+[data-testid="stChatMessageContent"] p{
+    font-size: 1.2rem;
+}
+
+
+
+[data-testid=stImageContainer]{
+    text-align: center;
+    display: block;
+    margin: auto;
+    padding-bottom:0px ;
+    width:12%;
+    border: solid rgb(0, 0, 0) 2px;
+    border-radius: 50%;
+}
+
+.subtitle {
+    margin-top: 30px;
+    font-size: 24px;
+    font-weight:bold;
+    color: #555;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.aboutbox{
+    border: 1px solid #ccc; 
+    padding: 20px; 
+    border-radius: 10px;
+
+}
+
+.upload-container {
+    background-color: #f0f8ff;  /* Light blue background */
+    border-radius: 10px;  /* Rounded corners */
+    padding: 20px;  /* Padding inside the container */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);  /* Subtle shadow for a lifted effect */
+    text-align: left;  /* Left-align text */
+    margin-bottom: 20px;  /* Space below the container */
+    font-family: 'Arial', sans-serif;  /* Use a clean, modern font */
+    color: #333;  /* Darker text for better readability */
+}
+
+.upload-container h1 {
+    font-size: 24px;  /* Larger font size for the heading */
+    color: #537b73;  /* Primary color for the heading */
+    margin-bottom: 10px;  /* Space below the heading */
+}
+
+.upload-container p {
+    margin-bottom: 10px;  /* Space below paragraphs */
+}
+
+.upload-container p.bold {
+    font-weight: bold;  /* Bold text for emphasis */
+    color: #b48c09;  /* Use a contrasting color for emphasis */
+}
+
+.title {
+    display: block;
+    margin: 0px auto 0 auto; /* Center horizontally and set top margin */
+    text-align: center;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    font-size: 48px;
+    font-weight: bold;
+    color: #575757;
+    text-align: left;
+    text-align: center; /* Center text inside the element */
+
+}
+
+
+.description {
+    width: 80%;
+    display: block;
+    margin: auto;
+    background-color: #8E7DBE; /* Light background color for a clean look */
+    border-left: 5px solid #01070f; /* Left border with a subtle accent color */
+    padding: 20px; /* Spacing inside the box */
+    border-radius: 8px; /* Rounded corners for a smooth appearance */
+    font-family: 'Helvetica Neue', sans-serif; /* Modern font choice */
+    font-weight: 200;
+    color: #000000; /* Dark text for readability */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+
+}
+
+
+/* .button {
+    display: block;
+    width: 100px;
+    margin: 10px auto;
+    text-align: center;
+} */
+.stButton button {
+    display: block;
+    text-align: center;
+    margin: 0 auto 10px auto;
+    width: 30%;
+    border-radius: 10px;
+    background-color: #deb4fa;
+    color: rgb(0, 0, 0);
+    border: solid 2px rgb(73, 73, 73);
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+}
+.stButton button:hover {
+    background-color: #624d70;
+    color: rgb(255, 255, 255);
+    transform: scale(1.05);
+}
+.sdsd{
+    background-color: #e1efff;
+}
+
+
+.quick-tip {
+    background-color: #E9EEF5;
+    border-left: 5px solid #3A6EA5;
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-style: italic;
+    color: #1F3A57;
+}
+.disclaimer {
+    background-color: #FFF7E6;
+    border-left: 5px solid #FFB84D;
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 5px;
+    color: #5A4904;
+    font-style: italic;
+}
+
+[data-testid="stChatInputTextArea"]{
+    color: black;
+    background-color:#ffffff;
+
+}
+
+[data-testid="stChatInputTextArea"]::-webkit-input-placeholder{
+    color: rgb(78, 78, 78);
+}
+
+
+
+
+
+

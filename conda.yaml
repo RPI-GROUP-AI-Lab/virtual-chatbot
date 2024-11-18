@@ -1,0 +1,13 @@
+# environment.yaml
+
+name: rpibot
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.5
+  - anaconda
+  - pip
+  - pip:
+    - -r file:requirements.txt
+
+#conda env create -f environment.yaml

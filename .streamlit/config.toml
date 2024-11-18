@@ -1,0 +1,13 @@
+[client]
+showSidebarNavigation = false
+
+[theme]
+primaryColor="purple"
+backgroundColor='#e8e0ff'
+secondaryBackgroundColor='#8A7CB3'
+textColor='#141111'
+font='sans serif'
+
+
+
+
